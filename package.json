@@ -1,0 +1,35 @@
+{
+  "name": "create-admin-user",
+  "version": "1.0.0",
+  "description": "A tool to create an admin user",
+  "main": "setup.js",
+  "bin": {
+    "ginit": "./setup.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "Darrell Pawson",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.3",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "mongoose": "^5.9.21",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
