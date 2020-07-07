@@ -1,4 +1,4 @@
-![Initial app image](https://imgur.com/aB3DRep)
+![Initial app image](https://i.imgur.com/aB3DRep.png)
 
 # Create Admin CMD Tool
 
@@ -86,4 +86,4 @@ Any changes made to this file will need to be updated in `lib/inquirer.js`. The 
 
 Enjoy
 
-![Completed App](https://imgur.com/Ed8z9YY)
+![Completed App](https://i.imgur.com/Ed8z9YY.png)
