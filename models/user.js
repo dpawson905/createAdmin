@@ -51,39 +51,10 @@ const UserSchema = new Schema(
         type: Boolean,
         default: true,
       },
-    },
-    image: {
-      secure_url: { type: String, default: "/images/no-user.jpg" },
-      public_id: String,
-    },
-    expiresDateCheck: {
-      type: Date,
-      default: undefined,
-      // if user is not verified then the account will be removed in 24 hours
-      expires: 86400,
-    },
-    private: {
-      type: Boolean,
-      default: false,
-    },
-    online: {
-      type: Boolean,
-      default: false,
-    },
-    blogs: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: 'Blog'
-      }
-    ]
+    }
   },
   { timestamps: true }
 );
-
-UserSchema.pre('find', function(next) {
-  this.populate('blogs');
-  next();
-});
 
 UserSchema.plugin(passportLocalMongoose, {
   limitAttempts: true,
