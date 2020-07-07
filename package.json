@@ -1,10 +1,10 @@
 {
-  "name": "create-admin-user",
+  "name": "create-admin",
   "version": "1.0.0",
   "description": "A tool to create an admin user",
   "main": "setup.js",
   "bin": {
-    "ginit": "./setup.js"
+    "create-admin": "./setup.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
