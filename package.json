@@ -1,6 +1,6 @@
 {
   "name": "create-admin-cli",
-  "version": "1.0.3a",
+  "version": "1.0.4",
   "description": "A tool to create an admin user",
   "main": "index.js",
   "bin": {
