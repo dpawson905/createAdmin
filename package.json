@@ -14,8 +14,14 @@
     "url": "https://github.com/dpawson905/createAdmin.git"
   },
   "keywords": [
-    "Git",
-    "CLI"
+    "Command",
+    "CLI",
+    "Prompt",
+    "Admin",
+    "CLI",
+    "Menu",
+    "MongoDB",
+    "Atlas"
   ],
   "author": "Darrell Pawson <dpawson905@gmail.com> (https://blog.djpawson.me)",
   "license": "ISC",
@@ -24,11 +30,11 @@
   },
   "homepage": "https://github.com/dpawson905/createAdmin",
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.0",
     "clear": "^0.1.0",
-    "figlet": "^1.2.4",
-    "inquirer": "^7.0.3",
-    "mongoose": "^5.9.21",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.2",
+    "mongoose": "^5.9.24",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1"
