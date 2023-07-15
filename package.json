@@ -35,7 +35,7 @@
     "figlet": "^1.5.0",
     "inquirer": "^7.3.2",
     "mongoose": "^5.9.24",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1"
   }
